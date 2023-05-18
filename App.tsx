@@ -1,13 +1,11 @@
 import React from 'react';
-import {SafeAreaView,View,Text } from 'react-native';
+import {SafeAreaView, View, Text} from 'react-native';
+import Greeting from './components/Greeting';
 
-const App = ()=> {
+const App = () => {
   return (
     <SafeAreaView>
-      <View>
-        <Text> Heen! 성공함!!. </Text>
-      </View>
-  
+     <Greeting />
     </SafeAreaView>
   );
 };
